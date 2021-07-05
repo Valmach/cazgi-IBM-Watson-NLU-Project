@@ -14,7 +14,7 @@ app.use(express.static('client')) = require('ibm-watson/natural-language-underst
 
 const { IamAuthenticator } = require('ibm-watson/auth');
 
-const naturalLangageUnderstanding - new NaturalLanguageUndrstandingV1({
+const naturalLangageUnderstanding = new NaturalLanguageUndrstandingV1({
     version: '2020-08-01',
     authenticator: new IamAuthenticator({
         apikey: api_key,
